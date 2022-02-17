@@ -39,5 +39,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - npx create-next-app projeto-exemplo
 - cd projeto-exemplo
 - npm install –D typescript @types/react @types/node
-*Renomear os arquivos .js para .tsx
+- *Renomear os arquivos .js para .tsx
 - npm run dev
+- npm install sass
