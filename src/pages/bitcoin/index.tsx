@@ -1,3 +1,5 @@
+import style from './styles.module.scss';
+
 export default function Bitcoin({ data }) {
   console.log(data)
 
@@ -16,6 +18,7 @@ export default function Bitcoin({ data }) {
           </div>
         )
       })}
+      <div className={style.graph}></div>
     </>
   )
 }
